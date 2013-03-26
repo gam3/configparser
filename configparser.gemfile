@@ -3,11 +3,12 @@ Gem::Specification.new do |s|
   s.name        = 'configparser'
   s.version     = File.exist?('VERSION') ? File.read('VERSION') : "0.0.0"
   s.date        = '2013-04-26'
-  s.summary     = ""
-  s.description = ""
+  s.summary     = "parse simple standard configuration files"
+  s.description = "Configuration file parser"
   s.authors     = ["Chris Lee", "G. Allen Morris III"]
   s.email       = 'gam3@gam3.net'
   s.homepage    =
       'http://rubygems.org/gems/configparser'
+  s.files       = ['lib/configparser.rb', 'lib/configparser/base.rb']
 end
 
